@@ -3,7 +3,7 @@ workflows:
     max_build_duration: 120
     scripts:
       - name: download ipsw
-        script: wget http://updates-http.cdn-apple.com/2020WinterFCS/fullrestores/001-87493/276DDA26-A771-413E-8BAF-FD7409E1897C/iPhone11,2,iPhone11,4,iPhone11,6,iPhone12,3,iPhone12,5_14.3_18C66_Restore.ipsw
+        script: wget http://updates-http.cdn-apple.com/2020WinterFCS/fullrestores/001-87267/C892DBD9-83E0-4538-95A8-5E9E45C4F095/iPhone11,8,iPhone12,1_14.3_18C66_Restore.ipsw
       - name: unzip
         script: unzip *.ipsw
       - name: build
